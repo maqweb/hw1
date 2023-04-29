@@ -44,7 +44,10 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         if (e.currentTarget.value.length) {
             setError('')
         }
-        if (!e.currentTarget.value.length && !e.currentTarget.focus) {
+        // if (!e.currentTarget.value.length && !e.currentTarget.focus) {
+        //     setError('Ошибка! Введите имя')
+        // }
+        if (!e.currentTarget.value.length) {
             setError('Ошибка! Введите имя')
         }
     }
