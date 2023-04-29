@@ -45,9 +45,9 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
-                    {error && <div id={'hw3-error'} className={s.error}>
+                    <div id={'hw3-error'} className={s.error}>
                         {error}
-                    </div>}
+                    </div>
                 </div>
 
                 <button
