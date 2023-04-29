@@ -1,11 +1,8 @@
 .sendForm {
-    position: absolute;
-    bottom: 0;
     display: flex;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    padding: 32px 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .textarea {

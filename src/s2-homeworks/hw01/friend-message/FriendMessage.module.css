@@ -1,10 +1,12 @@
 .friendMessage {
     color: #000000;
+    margin-bottom: 40px;
 }
 
 .friendImageAndText {
     display: flex;
-    align-items: center;
+    align-items: end;
+    margin-bottom: 5px;
 }
 
 .friendImageAndText img {
