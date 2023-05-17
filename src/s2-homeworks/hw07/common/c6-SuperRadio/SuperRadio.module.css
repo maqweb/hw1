@@ -9,7 +9,45 @@
 }
 
 .label {
+    margin-bottom: 21px;
+}
+
+.label > input {
+    display: none;
+}
+
+.label > span {
+    position: relative;
+    padding-left: 34px;
+    display: inline-block;
+}
+
+.label > span::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+
+.label > input:checked + span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #000000;
+    border-radius: 100%;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
 }
