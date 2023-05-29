@@ -1,22 +1,43 @@
 .item {
 }
 
-.item:last-of-type {
+.users tbody .item:last-of-type {
+    border: none;
 }
 
 .users {
+    margin-top: 20px;
+    width: 606px;
+    border-collapse: collapse;
+}
+
+.users td {
+    padding: 11px 17px;
+}
+
+.users tbody .item {
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
 }
 
 .container {
+    width: 606px;
 }
 
 .thead {
+    background: #E5E5E5;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
 }
 
 .nameCol {
+    width: 50%;
 }
 
 .ageCol {

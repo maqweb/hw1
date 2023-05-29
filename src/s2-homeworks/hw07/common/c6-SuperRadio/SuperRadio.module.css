@@ -10,6 +10,7 @@
 
 .label {
     margin-bottom: 21px;
+    cursor: pointer;
 }
 
 .label > input {
