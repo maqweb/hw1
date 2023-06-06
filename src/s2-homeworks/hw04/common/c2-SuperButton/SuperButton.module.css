@@ -59,4 +59,5 @@
 }
 
 .button:disabled {
+    color: #ffffff;
 }

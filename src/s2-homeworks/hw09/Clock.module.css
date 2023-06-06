@@ -2,13 +2,21 @@
 }
 
 .clock {
+
 }
 
 .watch {
+    margin-bottom: 8px;
 }
 
 .watch strong {
 }
 
 .more {
+    padding-bottom: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.5);
 }
