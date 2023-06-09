@@ -1,3 +1,16 @@
 .loader {
-    /*свг и/или анимация*/
+}
+
+.loader svg {
+    animation-name: rotate;
+    animation-duration: 1.5s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
